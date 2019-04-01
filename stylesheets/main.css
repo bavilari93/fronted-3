@@ -6,7 +6,8 @@
 /* Body */
 body {
   background-color: #181f2a;
-  color: white; }
+  color: white;
+  font-family: Raleway, sans-serif; }
 
 html {
   box-sizing: box-boder; }
@@ -20,14 +21,11 @@ html {
   align-items: center;
   flex-direction: column;
   width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+  display: block; }
 
 /*BODY 	FEATURES */
 /* Nav*/
-header {
-  width: 100%;
-  font-family: Raleway, sans-serif; }
-
 nav {
   display: -webkit-box;
   display: -moz-box;
@@ -53,6 +51,9 @@ nav {
       font-weight: 400;
       font-size: small; }
 
+header {
+  width: 100%; }
+
 #hero {
   display: -webkit-box;
   display: -moz-box;
@@ -77,6 +78,31 @@ nav {
     background: #65e2d9;
     background: -webkit-linear-gradient(left, #65e2d9, #339ecc);
     background: linear-gradient(to right, #65e2d9, #339ecc); }
+
+/*FEATURES*/
+#features {
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+  #features section {
+    width: 30%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem; }
+    #features section h1, #features section p {
+      text-align: center; }
 
 /*MEDIA QUERY*/
 /* MOBILE*/

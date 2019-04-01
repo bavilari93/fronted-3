@@ -15,10 +15,47 @@ This section has been structured with a header container by a nav  and a section
 ** good to notice that the in nav the image is position as absolute to be able to justify the navigation links by flex-end.
 
 
+2.features
+---------------------------------
 
+  
+            
+            
+            Stay productive, wherever you are
+            Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+            storage needs.
+            Securely share files and folders with friends, family and colleagues for live collaboration. No email
+            attachments required.
+            See how Fylo works
+            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+            become a well-oiled collaboration machine.
+            Satish Patel
+            Founder & CEO, Huddle
+            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+            become a well-oiled collaboration machine.
+            Bruce McKenzie
+            Founder & CEO, Huddle
+            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+            become a well-oiled collaboration machine.
+            Iva Boyd
+            Founder & CEO, Huddle
+            Get early access today
+            It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+            questions, our support team would be happy to help you.
+            Get Started For Free
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua
+            +1-543-123-4567
+            example@fylo.com
+            About Us
+            Jobs
+            Press
+            Blog
+            Contact Us
+            Terms
+            Privacy
 
-
-
+  -------------------------------
 
 # Frontend Mentor - Fylo landing page with dark theme and features grid
 

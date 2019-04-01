@@ -1,0 +1,20 @@
+/*FEATURES*/
+
+#features{
+
+width: 100%;
+	@include flexbox;
+	flex-direction:row;
+	justify-content: center; 
+	flex-wrap:wrap;
+	section{
+		width:30%;
+		@include flexbox;
+		flex-direction: column;
+		padding: 2rem;
+
+		h1,p{
+		text-align: center;
+		}
+	}
+}
