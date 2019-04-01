@@ -10,7 +10,12 @@ In regards to building up the framework of the project people have different app
 
 1.Header 
 ---------------------------------
-to structure this, I have a nav and sections.
+This section has been structured with a header container by a nav  and a section.
+
+** good to notice that the in nav the image is position as absolute to be able to justify the navigation links by flex-end.
+
+
+
 
 
 

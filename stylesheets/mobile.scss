@@ -1,5 +1,16 @@
 /* MOBILE*/
 
-@media only screen and (max-width:600){
+@media only screen and (max-width: 768px){
+#hero{
+	img{
+	    max-width: 300px !important;
+	}
+	h1{
+	    width: 80%;
+	}
+	p{
+		width: 90%;
+	}
+}
 	
 }

@@ -49,11 +49,43 @@ nav {
     nav section a {
       text-decoration: none;
       color: white;
-      margin-left: 2rem;
+      margin-left: 1rem;
       font-weight: 400;
       font-size: small; }
 
+#hero {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center; }
+  #hero img {
+    max-width: 400px; }
+  #hero h1, #hero p {
+    width: 50%; }
+  #hero a {
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    padding: .6rem 4rem .6rem 4rem;
+    background: #65e2d9;
+    background: -webkit-linear-gradient(left, #65e2d9, #339ecc);
+    background: linear-gradient(to right, #65e2d9, #339ecc); }
+
 /*MEDIA QUERY*/
 /* MOBILE*/
+@media only screen and (max-width: 768px) {
+  #hero img {
+    max-width: 300px !important; }
+  #hero h1 {
+    width: 80%; }
+  #hero p {
+    width: 90%; } }
 
 /*# sourceMappingURL=main.css.map */

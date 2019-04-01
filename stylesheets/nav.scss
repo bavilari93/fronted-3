@@ -3,7 +3,6 @@
 header{
 	width: 100%;
 	font-family: Raleway, sans-serif;
-
 }
 nav{
 	@include flexbox;
@@ -23,9 +22,32 @@ nav{
 	a{
 	text-decoration:none;
 	color: white;
-	margin-left: 2rem;
+	margin-left: 1rem;
 	font-weight: 400;
 	font-size: small;
 	}
+	}
+}
+#hero{
+	@include flexbox;
+	flex-direction:column;
+	width: 100%;
+	 text-align: center;
+	img{
+	    max-width: 400px;
+	}
+
+	h1,p{
+	    width: 50%;
+	}
+
+	a{
+	text-decoration: none; 
+	color: $White;
+	border-radius: 50px;
+	margin-bottom: 4rem;
+	margin-top: 2rem;
+	padding: .6rem 4rem .6rem 4rem;
+	@include gradient($CyanCalltoAction, $BlueCallToAction, horizontal);
 	}
 }
