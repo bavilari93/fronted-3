@@ -6,6 +6,13 @@ I usually start by determine the structure of what i will built. In this project
 
 To integrate them all together and access variables, mixin and other styles, I have created one main.scss file where i have imported all other scss files.
 
+In regards to building up the framework of the project people have different approces. However I like to build designs by each section. said that I started mine with the header.
+
+1.Header 
+---------------------------------
+to structure this, I have a nav and sections.
+
+
 
 
 # Frontend Mentor - Fylo landing page with dark theme and features grid

@@ -8,11 +8,8 @@ body {
   background-color: #181f2a;
   color: white; }
 
-html, * {
+html {
   box-sizing: box-boder; }
-
-html > * {
-  box-sizing: inherit; }
 
 .container {
   display: -webkit-box;
@@ -20,7 +17,6 @@ html > * {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100vw;
@@ -28,6 +24,35 @@ html > * {
 
 /*BODY 	FEATURES */
 /* Nav*/
+header {
+  width: 100%;
+  font-family: Raleway, sans-serif; }
+
+nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 5rem;
+  width: 100%; }
+  nav img {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    max-width: 6rem; }
+  nav section {
+    justify-content: space-around;
+    padding: 5rem 3rem 3rem 3rem; }
+    nav section a {
+      text-decoration: none;
+      color: white;
+      margin-left: 2rem;
+      font-weight: 400;
+      font-size: small; }
+
 /*MEDIA QUERY*/
 /* MOBILE*/
 

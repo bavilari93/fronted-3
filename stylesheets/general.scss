@@ -5,13 +5,11 @@ body{
 	color: $White;
 }
 
-html,*{
+html{
 	box-sizing:box-boder;
 }
 
-html>*{
-	box-sizing: inherit;
-}
+
 
 .container{
 	@include flexbox;

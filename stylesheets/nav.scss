@@ -1,1 +1,31 @@
 /* Nav*/
+
+header{
+	width: 100%;
+	font-family: Raleway, sans-serif;
+
+}
+nav{
+	@include flexbox;
+	justify-content: flex-end;
+	height:5rem;
+	width: 100%;
+	img{
+	position:absolute;
+	top:3rem;
+	left:3rem;
+	max-width: 6rem;
+	
+	}
+	section{
+	justify-content: space-around;
+	padding:5rem 3rem 3rem 3rem;
+	a{
+	text-decoration:none;
+	color: white;
+	margin-left: 2rem;
+	font-weight: 400;
+	font-size: small;
+	}
+	}
+}
