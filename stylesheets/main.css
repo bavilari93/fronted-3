@@ -81,6 +81,7 @@ header {
 
 /*FEATURES*/
 #features {
+  margin-bottom: 3rem;
   width: 100%;
   display: -webkit-box;
   display: -moz-box;
@@ -104,6 +105,33 @@ header {
     #features section h1, #features section p {
       text-align: center; }
 
+/*ABOUT*/
+#about {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  flex-direction: row; }
+  #about img {
+    max-width: 400px;
+    padding: 2rem; }
+  #about section {
+    flex: 1;
+    padding: 4rem; }
+    #about section span {
+      border-bottom: solid #65e2d9 0.02rem;
+      padding-bottom: .5rem; }
+      #about section span a {
+        color: #65e2d9;
+        line-height: 2px;
+        text-decoration: none;
+        margin-right: .5rem; }
+      #about section span img {
+        padding: 1px 2px 0 0;
+        position: absolute; }
+
 /*MEDIA QUERY*/
 /* MOBILE*/
 @media only screen and (max-width: 768px) {
@@ -112,6 +140,12 @@ header {
   #hero h1 {
     width: 80%; }
   #hero p {
-    width: 90%; } }
+    width: 90%; }
+
+  #features section {
+    width: 80%; }
+
+  #about {
+    flex-direction: column; } }
 
 /*# sourceMappingURL=main.css.map */

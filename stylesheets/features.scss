@@ -1,7 +1,7 @@
 /*FEATURES*/
 
 #features{
-
+	margin-bottom:3rem;
 width: 100%;
 	@include flexbox;
 	flex-direction:row;
@@ -12,7 +12,6 @@ width: 100%;
 		@include flexbox;
 		flex-direction: column;
 		padding: 2rem;
-
 		h1,p{
 		text-align: center;
 		}
