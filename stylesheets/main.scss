@@ -1,0 +1,21 @@
+
+/*Utilities*/
+@import './utilities.scss';
+@import './mixin.scss';
+
+/* GENERAL FEATURES*/
+
+@import './general.scss';
+
+/*BODY 	FEATURES */
+
+@import './nav.scss';
+@import './hero.scss';
+@import './features.scss';
+@import './about.scss';
+@import './testimonials.scss';
+@import './footer.scss';
+
+/*MEDIA QUERY*/
+
+@import './mobile.scss'

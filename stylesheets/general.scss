@@ -1,0 +1,21 @@
+/* Body */
+
+body{
+	background-color: $DarkBlueMain;
+	color: $White;
+}
+
+html,*{
+	box-sizing:box-boder;
+}
+
+html>*{
+	box-sizing: inherit;
+}
+
+.container{
+	@include flexbox;
+	flex-direction:column;
+	width:100vw;
+	height: 100vh;
+}
