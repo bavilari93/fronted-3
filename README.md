@@ -2,7 +2,9 @@ Fronted mentor is a platform that allows developers practice front-end skills by
 
 The design allows experiment freely with technologies such as HTML, CSS and JavaScript. 
 
+I usually start by determine the structure of what i will built. In this project I utilized segmetation of sass code by creating files for each section of the web page.
 
+To integrate them all together and access variables, mixin and other styles, I have created one main.scss file where i have imported all other scss files.
 
 
 
