@@ -23,20 +23,14 @@ This section is structured by for sections that contain an image, h1 and a p
 ----------------------------------      this section feautures a two columns.img on the left and on the right side a text with an anchor link. 
 I have utilized flex box row for desktop. whereas mobile flex-direction is defined as column             
             
+ 2.about
+----------------------------------
+Testimonials showcases the usage of display block to organize the items as a column for persona'name and business.   
             
             
-            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
-            become a well-oiled collaboration machine.
-            Satish Patel
-            Founder & CEO, Huddle
-            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
-            become a well-oiled collaboration machine.
-            Bruce McKenzie
-            Founder & CEO, Huddle
-            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
-            become a well-oiled collaboration machine.
-            Iva Boyd
-            Founder & CEO, Huddle
+          
+            
+            
             Get early access today
             It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
             questions, our support team would be happy to help you.

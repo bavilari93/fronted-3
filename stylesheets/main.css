@@ -132,6 +132,54 @@ header {
         padding: 1px 2px 0 0;
         position: absolute; }
 
+#testimonials {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  background-image: url(../images/bg-quotes.png);
+  background-repeat: no-repeat; }
+  #testimonials div {
+    flex: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #202a3c;
+    margin: 2rem;
+    text-align: center; }
+    #testimonials div .testimonial-content {
+      width: 80%;
+      margin-top: 2rem; }
+    #testimonials div section {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      align-items: center;
+      width: -webkit-fill-available; }
+      #testimonials div section img {
+        height: 30px;
+        border-radius: 100%;
+        margin: 1rem; }
+      #testimonials div section .persona {
+        display: block;
+        text-align: left;
+        width: auto; }
+        #testimonials div section .persona > * {
+          margin: auto; }
+        #testimonials div section .persona p {
+          font-size: xx-small; }
+
 /*MEDIA QUERY*/
 /* MOBILE*/
 @media only screen and (max-width: 768px) {
@@ -146,6 +194,9 @@ header {
     width: 80%; }
 
   #about {
+    flex-direction: column; }
+
+  #testimonials {
     flex-direction: column; } }
 
 /*# sourceMappingURL=main.css.map */
