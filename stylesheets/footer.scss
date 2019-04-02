@@ -1,0 +1,52 @@
+footer {
+    background-color: $Dark-BlueFooter;
+    padding-top: 10rem;
+    z-index: -1;
+    position: absolute;
+    margin-top: -5rem;
+    width: 100vw;
+    @include flexbox;
+
+
+}
+
+section {
+    padding: 2rem;
+
+
+    .location {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 25px;
+            margin-right: 1rem;
+        }
+    }
+
+    .contact {
+        padding: 0;
+    }
+
+}
+
+.navMap {
+    display: flex;
+    flex: none;
+
+    ul {
+        list-style: none;
+
+        li {
+            margin-top: 1rem;
+        }
+    }
+}
+
+.social{
+        display: contents;
+        i{
+        margin:1rem;
+        }
+}
+

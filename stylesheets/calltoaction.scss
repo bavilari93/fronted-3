@@ -1,0 +1,24 @@
+#callToAction {
+    background-color: $DarkBlueTestimonials;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem 6rem;
+    border-radius: 10px;
+     text-align: center;
+
+    div {
+        input {
+            color: grey;
+            height: 1rem;
+            width: 60%;
+            border: none;
+            border-radius: 15px;
+            padding: .5rem;
+        }
+        a{
+            padding: 0.6rem 1rem .6rem 1rem;
+            font-size: x-small;
+            margin-left: 1rem;
+        }
+    }
+}

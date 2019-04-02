@@ -4,17 +4,19 @@ body{
 	background-color: $DarkBlueMain;
 	color: $White;
 		font-family: Raleway, sans-serif;
+
 }
 
 html{
 	box-sizing:box-boder;
+	 scroll-behavior: smooth;
+	    overflowY: hidden;
 }
 
 
 
 .container{
-	@include flexbox;
-	flex-direction:column;
+
 	width:100vw;
 	height: 100vh;
 	display: block;

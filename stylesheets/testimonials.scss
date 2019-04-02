@@ -1,10 +1,9 @@
 #testimonials {
-    margin-top: 3rem;
     @include flexbox;
     background-image: url(../images/bg-quotes.png);
     background-repeat: no-repeat;
-
-
+        background-position: 3rem 2rem;
+    margin: 5rem 0;
     div {
         flex: 1;
         @include flexbox;
@@ -14,6 +13,7 @@
         background-color: $DarkBlueTestimonials;
         margin: 2rem;
         text-align: center;
+            box-shadow: 1px 2px 45px $Dark-BlueFooter;
 
         .testimonial-content {
             width: 80%;
@@ -21,6 +21,7 @@
         }
 
         section {
+            padding:.4rem;
             @include flexbox;
             width: -webkit-fill-available;
 

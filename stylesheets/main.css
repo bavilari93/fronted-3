@@ -10,16 +10,11 @@ body {
   font-family: Raleway, sans-serif; }
 
 html {
-  box-sizing: box-boder; }
+  box-sizing: box-boder;
+  scroll-behavior: smooth;
+  overflowY: hidden; }
 
 .container {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   width: 100vw;
   height: 100vh;
   display: block; }
@@ -68,21 +63,22 @@ header {
     max-width: 400px; }
   #hero h1, #hero p {
     width: 50%; }
-  #hero a {
-    text-decoration: none;
-    color: white;
-    border-radius: 50px;
-    margin-bottom: 4rem;
-    margin-top: 2rem;
-    padding: .6rem 4rem .6rem 4rem;
-    background: #65e2d9;
-    background: -webkit-linear-gradient(left, #65e2d9, #339ecc);
-    background: linear-gradient(to right, #65e2d9, #339ecc); }
+
+/* call to action button*/
+.heroButton {
+  text-decoration: none;
+  color: white;
+  border-radius: 50px;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  padding: .6rem 4rem .6rem 4rem;
+  background: #65e2d9;
+  background: -webkit-linear-gradient(left, #65e2d9, #339ecc);
+  background: linear-gradient(to right, #65e2d9, #339ecc); }
 
 /*FEATURES*/
 #features {
   margin-bottom: 3rem;
-  width: 100%;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -133,7 +129,6 @@ header {
         position: absolute; }
 
 #testimonials {
-  margin-top: 3rem;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -141,7 +136,9 @@ header {
   display: flex;
   align-items: center;
   background-image: url(../images/bg-quotes.png);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: 3rem 2rem;
+  margin: 5rem 0; }
   #testimonials div {
     flex: 1;
     display: -webkit-box;
@@ -155,11 +152,13 @@ header {
     flex-direction: column;
     background-color: #202a3c;
     margin: 2rem;
-    text-align: center; }
+    text-align: center;
+    box-shadow: 1px 2px 45px #0b1523; }
     #testimonials div .testimonial-content {
       width: 80%;
       margin-top: 2rem; }
     #testimonials div section {
+      padding: .4rem;
       display: -webkit-box;
       display: -moz-box;
       display: -webkit-flex;
@@ -180,9 +179,67 @@ header {
         #testimonials div section .persona p {
           font-size: xx-small; }
 
+#callToAction {
+  background-color: #202a3c;
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem 6rem;
+  border-radius: 10px;
+  text-align: center; }
+  #callToAction div input {
+    color: grey;
+    height: 1rem;
+    width: 60%;
+    border: none;
+    border-radius: 15px;
+    padding: .5rem; }
+  #callToAction div a {
+    padding: 0.6rem 1rem .6rem 1rem;
+    font-size: x-small;
+    margin-left: 1rem; }
+
+footer {
+  background-color: #0b1523;
+  padding-top: 10rem;
+  z-index: -1;
+  position: absolute;
+  margin-top: -5rem;
+  width: 100vw;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center; }
+
+section {
+  padding: 2rem; }
+  section .location {
+    display: flex;
+    align-items: center; }
+    section .location img {
+      width: 25px;
+      margin-right: 1rem; }
+  section .contact {
+    padding: 0; }
+
+.navMap {
+  display: flex;
+  flex: none; }
+  .navMap ul {
+    list-style: none; }
+    .navMap ul li {
+      margin-top: 1rem; }
+
+.social {
+  display: contents; }
+  .social i {
+    margin: 1rem; }
+
 /*MEDIA QUERY*/
 /* MOBILE*/
 @media only screen and (max-width: 768px) {
+  /*header */
   #hero img {
     max-width: 300px !important; }
   #hero h1 {
@@ -190,13 +247,48 @@ header {
   #hero p {
     width: 90%; }
 
+  /*features */
   #features section {
     width: 80%; }
 
+  /*about*/
   #about {
     flex-direction: column; }
 
+  /*Testimonials */
   #testimonials {
-    flex-direction: column; } }
+    flex-direction: column; }
+    #testimonials div {
+      width: 100%; }
+
+  /*call to action */
+  #callToAction {
+    padding: 2rem 3rem;
+    width: 60%; }
+    #callToAction p {
+      width: 100%; }
+    #callToAction div {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      #callToAction div input {
+        width: 100%; }
+      #callToAction div a {
+        width: 80%;
+        margin-left: 0; }
+
+  footer {
+    flex-direction: column;
+    align-items: baseline; }
+    footer .social {
+      display: inline;
+      padding: 1rem 0; }
+
+  .navMap {
+    flex-direction: column; }
+
+  .social {
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=main.css.map */

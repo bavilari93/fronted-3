@@ -19,22 +19,24 @@ This section has been structured with a header container by a nav  and a section
 ---------------------------------
 This section is structured by for sections that contain an image, h1 and a p
   
- 2.about
+ 3.about
 ----------------------------------      this section feautures a two columns.img on the left and on the right side a text with an anchor link. 
 I have utilized flex box row for desktop. whereas mobile flex-direction is defined as column             
             
- 2.about
+ 4.Testimonials
 ----------------------------------
-Testimonials showcases the usage of display block to organize the items as a column for persona'name and business.   
-            
+Testimonials showcases the usage of display block to organize the items as a column for persona'name and business.
+
+ 4.Join
+----------------------------------
+
             
           
             
             
-            Get early access today
-            It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
-            questions, our support team would be happy to help you.
-            Get Started For Free
+           
+            
+      
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua
             +1-543-123-4567

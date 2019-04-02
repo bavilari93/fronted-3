@@ -15,7 +15,10 @@ header{
 	    width: 50%;
 	}
 
-	a{
+	
+}
+/* call to action button*/
+.heroButton{
 	text-decoration: none; 
 	color: $White;
 	border-radius: 50px;
@@ -24,4 +27,3 @@ header{
 	padding: .6rem 4rem .6rem 4rem;
 	@include gradient($CyanCalltoAction, $BlueCallToAction, horizontal);
 	}
-}
