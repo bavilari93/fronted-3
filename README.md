@@ -8,97 +8,41 @@ To integrate them all together and access variables, mixin and other styles, I h
 
 In regards to building up the framework of the project people have different approces. However I like to build designs by each section. said that I started mine with the header.
 
-1.Header 
----------------------------------
-This section has been structured with a header container by a nav  and a section.
 
-** good to notice that the in nav the image is position as absolute to be able to justify the navigation links by flex-end.
+## Project brief
+Build a pixel perfect responsive website that works accross browsers.
 
-
-2.features
----------------------------------
-This section is structured by for sections that contain an image, h1 and a p
-  
- 3.about
-----------------------------------      this section feautures a two columns.img on the left and on the right side a text with an anchor link. 
-I have utilized flex box row for desktop. whereas mobile flex-direction is defined as column             
-            
- 4.Testimonials
-----------------------------------
-Testimonials showcases the usage of display block to organize the items as a column for persona'name and business.
-
- 4.Join
-----------------------------------
-
-            
-          
-            
-            
-           
-            
-      
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua
-            +1-543-123-4567
-            example@fylo.com
-            About Us
-            Jobs
-            Press
-            Blog
-            Contact Us
-            Terms
-            Privacy
-
-  -------------------------------
-
-# Frontend Mentor - Fylo landing page with dark theme and features grid
-
+### Thumbnails
 ![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge. 
+## Requirements
+1. Create project using Sass Segmentation
+2. Use HTML5 / SCSS
+3. Make it responsive using media queries when necesary
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
+## Design
+Design is available in [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
-**To do these challenges, you need a basic understanding of HTML, CSS and (sometimes) JavaScript.**
+## Supported browsers
+Ensure that the elements work and display correctly in the following browsers:
 
-## Where to find everything
+- Firefox (latest version)
+- Google Chrome (latest version)
+- Microsoft Edge
+- Internet Explorer 11
+- Safari
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
+## Coding Standards
+Utilize code, style standards.
 
-The designs are in JPG static format. The reason for this, as opposed to including Sketch (or other similar design software) files, is to help train your eye when developing. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help when you're working on real projects, but do have access to full design files.
+## Project Deadline
+2 Days
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+## Quality Assurance
 
-There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
+Tested in all browsers and divices for quality assurance
 
-## Building your project
 
-Practice using version control by creating your own Github repository for this challenge. This has the added benefit of being able to publish it on the `gh-pages` branch at the end. Find out more about Github Pages here: [https://pages.github.com/](https://pages.github.com/).
 
-Also, you could try building this project in a team. This is a great way to practice collaborative coding.
 
-## Suggested workflow
-
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1) Initialize your project as a public repository on [Github](https://github.com/). This will make it easier to share your code with the community if you need some help. If you're not sure how to do this, have a read through of this [Try Git](https://try.github.io/) resource.
-2) Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes that you could create to make reusable styles.
-3) Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-4) Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-5) Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Sharing your solution
-
-We can all learn from each other's solution, so everyone would love to see your code. There is a Slack community, which you can sign up to on the Frontend Mentor website. Post the link to your repository there and get feedback from the community.
-
-If you decide to push the project live, tweet [@frontendmentor](https://twitter.com/frontendmentor). Mention **@frontendmentor** and include the URL in the tweet. We'd love to take a look at what you've built and help share it around.
-
-## Giving feedback
-
-Feedback is always welcome, so if you have any on this challenge please email me at matt[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful to practice on.
-
-**Have fun building!** 🚀
